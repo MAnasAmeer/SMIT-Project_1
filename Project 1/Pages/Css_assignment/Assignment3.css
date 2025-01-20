@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .body{
+    z-index: -1;
+} */
+.head{
+    height: 50px;
+    background-color: rgb(239, 238, 238);
+}
+.head ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+    gap: 40px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+.head ul li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(119, 117, 117);
+     font-size: 14px;
+     cursor: pointer;
+}
+.head ul li i{
+    margin: 10px;
+    cursor: pointer;
+}
+.flags{
+height: 30px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.flags li img{
+    width: 35px;
+    height: 32px;
+    margin: 2px;
+    cursor: pointer;
+}
+.header{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.head button{
+    margin-left: 150px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    padding: 5px;
+}
+.dropdown{
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+}
+.Navbar a{
+    text-decoration: none;
+    color: rgb(113, 111, 111);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo1 img{
+    width: 200px;
+    height: 60px;
+}
+/* .Navbar logo{
+    border: 1px solid red;
+} */
+.Navbar a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(29, 163, 29);
+}
+.Navbar button{
+    position: sticky;
+   width: 150px;
+   height: 50px;
+   background-color: rgb(46,77,167);
+   border: 1px solid rgb(14, 14, 199);
+   border-radius: 5px;
+}
+.Navbar button:hover{
+    background-color: #96CC39;
+}
+.Box2 img{
+    width: 450px;
+    height: 500px;
+}
+.Box1 h2 b{
+    color: #2383c2;
+}
+.Box1{
+   min-width: 300px; 
+    max-height: 600px;
+}
+.Box1 h1 b{
+    color: #96CC39;
+}
+.Slide2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ .Slide2{
+    background-color: rgb(222, 220, 220);
+    opacity: 0.9;
+ }
+.btn1{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    height: 50px;
+}
+.btn2{
+    height: 50px;
+    border-radius: 5px;
+}
+.btn1:hover{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+.btn2:hover{
+    border: 1px solid #96CC39;
+    color: white;
+    background-color: #96CC39 ;
+}
+.btn1 input{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+.Slide3{
+    display: flex;
+    position: relative;
+    background-image: url("/Project 1/Images/sadqa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    border: 2px solid whitesmoke;
+}
+.Slide3 button{
+    position: absolute;
+    top: 600px;
+    bottom: 0px;
+    left: 1100px;
+    right: 0px;
+}
+.Slide4{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    height: 250px;
+}
+.Slide4 h1{
+    text-align: center;
+}
+.Works{
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.Allworks{
+    padding-top: 10px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color:#e0e0e0;
+    border: #e0e0e0;
+    border-radius: 5px;
+}
+.AllworksIn{
+    position: relative;
+    top: 30px;
+    right: 10px;
+    left: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Silde5{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    height: 300px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.Threework{
+    height: 300px;
+    background-image: url("/Project 1/Images/Hunger.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border: #2383c2;
+    border-radius: 10px;
+}
+.Onework{
+    height: 300px;
+    background-image: url("/Project 1/Images/welder.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border: #2383c2;
+    border-radius: 10px;
+}
+.Twowork{
+    height: 300px;
+    background-image: url("/Project 1/Images/classroom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border: #2383c2;
+    border-radius: 10px;
+}
+.btn3:hover{
+    border: 1px solid #96CC39;
+    color: white;
+    background-color: #96CC39 ;
+}
+.btn3{
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    top: 220px;
+    left: 35px;
+    right: 0px;
+    bottom: 0px;
+}
+.Slide6{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.Image1{
+    /* border:  1px solid blue; */
+    background-image: url("/Project 1/Images/Hunger.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;    
+    border: #2383c2;
+    border-radius: 1px;
+    height: 600px;
+    width: 600px;
+}
+.Image2 h2{
+    font-size: 30px;
+}
+.Image2{
+    /* border:  1px solid purple; */
+    width: 600px; 
+    height: 400px;
+    background-color: #e0e0e0;
+}
+.Image2 img{
+    width: 50px;
+    height: 50px;
+}
+.Image2 h4{
+    color: #2383c2;
+    font-weight: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.Image2 p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imgshad{
+    /* width: 100px;
+    height: 70px; */
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    text-align: center;
+    /* background-color: #c2c7ca; */
+}
+.Slide7 h4{
+    color: #96CC39;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Slide7 h1{
+    text-align: center;
+}
+.Slide7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;
+    height: 100px;
+    /* border: 1px solid red; */
+    background-color: rgb(239, 238, 238);
+}
+.Slide8{ 
+    margin-bottom: 20px;
+    height: 500px;
+    /* border: 1px solid red; */
+    background-color: rgb(239, 238, 238);
+}
+.carousel-inner{
+    /* border: 1px solid red; */
+    height: 500px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-inner img{
+    margin-top: 100px;
+    margin-left: 600px;
+    text-align: center;
+    border-radius: 100%;
+        width: 100px;
+        height: 100px;
+}
+.carousel-inner h2,h3{
+    text-align: center;
+    font-size: 20px;
+    color: #2383c2;
+}
+.carousel-inner p{   
+    text-align: center;
+} 
+.footer{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    height: 250px;
+    background-color: #e0e0e0;
+    border: 2px solid #e0e0e0;
+}
+.logo{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.logo img{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+#saylani{
+    width: 250px;
+    height: 100px;
+}
+.contact h3{
+    font-size: 25px;
+}
+.contact p{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Slide1{
+    padding-top: 100px;
+}

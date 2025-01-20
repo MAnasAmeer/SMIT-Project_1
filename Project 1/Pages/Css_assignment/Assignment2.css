@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    border: 1px solid wheat;
+    list-style-type: none;
+    background-color: rgb(252, 249, 249);
+    /* position: sticky;
+    top: 10px;
+    bottom: 0; */
+}
+ul li{
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para p{
+    height: 30px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+p a{
+    color: rgb(133, 133, 255);
+}
+#learn{
+    color: whitesmoke;
+    font-weight: 50;
+    font-size: 20px;
+    background-color: rgb(39, 39, 242);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: 1px solid rgb(105, 105, 249);
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 7px;
+}
+#learn:hover{
+background-color: rgb(28, 58, 181);
+}
+#buy{
+    border-radius: 20px;
+    border: 1px solid blue;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+#buy:hover{
+    background-color: rgb(28, 58, 181);
+}
+.iphoneBox1 h2{
+    color: whitesmoke;  
+    font-weight: 600;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.iphoneBox1 p{
+    color: whitesmoke;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.iphoneBox2 h2{
+    color: whitesmoke;  
+    font-weight: 600;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.iphoneBox2 p{
+    color: whitesmoke;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.iphoneBox3 h2{
+    color:black;  
+    font-weight: 600;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.iphoneBox3 p{
+    color: black;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+/* #learn :hover{
+    opacity: 0.1;
+}
+#buy :hover{
+    background-color: blue;
+} */   
+.boxes{
+    /* border: 1px solid red; */
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+    /* padding: 50px; */
+    position:absolute;
+    top: 50;
+    right:0;
+    left: 0;
+    bottom: 50;
+}
+.iphoneBox1{
+    position: relative;
+    top: 580px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.box1{
+    /* border: 1px solid red; */
+    /* border-radius: 10px; */
+    margin: 10px;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    background-image: url("/Project 1/Images/iphone 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iphoneBox2{
+    position: relative;
+    top: 100px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.box2{
+    /* border: 1px solid red;
+    border-radius: 10px; */
+    margin: 10px;
+    width: 100%;
+    height: 880px;
+    text-align: center;
+    background-image: url("/Project 1/Images/iphone 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#unique{
+    text-align:center;
+    margin-top: 545px;
+}
+.iphoneBox3{
+    position: relative;
+    top: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.box3{
+    /* border: 1px solid red;
+    border-radius: 10px; */
+    width: 100%;
+    height: 770px;
+    text-align: center;
+    background-image: url("/Project 1/Images/ipad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+/* .couple{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid blue;
+    width: 100%;
+    height: 600px;
+    margin: 20px;
+} */
+.couple1{
+    height: 550px;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    top: 50;
+    right:0;
+    left: 0;
+    bottom: 50;
+    width: 100%;
+    margin-top: 20px;  
+    gap: 20px; 
+}
+.part1{
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 550px;
+    text-align: center;
+    background-image: url("/Project 1/Images/simpleipad.jpg");
+    background-repeat: no-repeat;
+    background-size:600px;
+    margin-left: 40px;
+}
+.part2{
+    /* border: 1px solid orange; */
+    width: 600px;
+    height: 550px;
+    text-align: center;
+    background-image: url("/Project 1/Images/headphone.jpg");
+    background-repeat: no-repeat;
+    background-size:600px;
+    margin-right: 40px;
+}
+.couple2{
+    height: 550px;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;  
+    gap: 20px; 
+}
+.part3{
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 550px;
+    text-align: center;
+    background-image: url("/Project 1/Images/foldipad.jpg");
+    background-repeat: no-repeat;
+    background-size:600px;
+    margin-left: 40px;
+}
+.part4{
+    /* border: 1px solid orange; */
+    width: 600px;
+    height: 550px;
+    text-align: center;
+    background-image: url("/Project 1/Images/card.jpg");
+    background-repeat: no-repeat;
+    background-size:600px;
+    margin-right: 40px;
+}
+.couple3{
+    height: 550px;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;  
+    gap: 20px; 
+}
+.part5{
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 550px;
+    text-align: center;
+    background-image: url("/Project 1/Images/smartwatch.jpg");
+    background-repeat: no-repeat;
+    background-size:600px;
+    margin-left: 40px;
+}
+.part6{
+    /* border: 1px solid orange; */
+    width: 600px;
+    height: 550px;
+    text-align: center;
+    background-image: url("/Project 1/Images/headphone.jpg");
+    background-repeat: no-repeat;
+    background-size:600px;
+    margin-right: 40px;
+}
+.footer{
+    border-top: 1px solid rgb(228, 219, 219);
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer h3{
+    opacity: 0.7;
+    text-align: justify;
+  
+}
+.footer ul{
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+.footer ul li{
+    line-height: 40px;
+    opacity: 0.5;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+.footer ul li:hover{
+    opacity: 0.9;
+    text-decoration: underline;
+}
+.iphonePart2{
+    position: relative;
+    top: 350px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;   
+}
+.iphonePart2 h2{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.iphonePart2 p{
+    color: whitesmoke;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
